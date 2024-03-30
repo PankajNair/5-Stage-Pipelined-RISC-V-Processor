@@ -7,6 +7,9 @@ My implementation of a 5-stage pipelined RV32IM processor based on the Textbook 
 * Implemented 41 instructions for the RV32IM core 
 * Hazard Handling
 
+# Microarchitecture
+![pipeline](https://github.com/PankajNair/5-Stage-Pipelined-RISC-V-Processor/blob/main/pipeline.png)
+
 ## Hazard Handling
 Occurs when an instruction depends on the results of the previous instruction which is not yet completed.
 
