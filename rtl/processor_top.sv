@@ -19,6 +19,7 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
+//For Simulation
 
 //module processor_top(
 //input logic clk, reset, 
@@ -27,6 +28,8 @@
 //    );
 
 //logic [31:0] pc_f, instr_f, read_data_m;
+
+//For FPGA Implementation
 
 module processor_top(
 input logic clk, reset, 
