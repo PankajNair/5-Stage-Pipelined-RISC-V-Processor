@@ -47,7 +47,7 @@ always @(negedge clk)
 begin
     if(mem_write_m) 
         begin
-            if(data_address_m === 32'd100 & store_data_m === 32'd25) 
+          if(data_address_m === 32'd100 & store_data_m === 32'd84) 
                 begin
                     $display("Simulation succeeded");
                     $stop;
